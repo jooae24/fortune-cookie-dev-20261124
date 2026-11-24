@@ -4,13 +4,26 @@
 [![rank](https://make.fun/badge/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44/jooae24/fortune-cookie-dev-20261124/rank.svg)](https://make.fun/bounty/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44)
 [![reward](https://make.fun/badge/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44/jooae24/fortune-cookie-dev-20261124/reward.svg)](https://make.fun/bounty/u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44)
 
-One line of fortune-cookie wisdom for developers: the bug you cannot reproduce is already in production.
+Fortune-cookie wisdom for developers: the bug you could never reproduce has been living in production all along, saving itself for the demo.
 
-## Run it
+> "The bug you cannot reproduce is already in production, waiting for the demo."
+
+76 characters of the 120 allowed.
+
+## Entry
+
+`main.ts` writes the line above to `entry.txt` in the output folder, after checking it fits the bounty's 120-character cap.
+
+## Run it locally
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+MAKEFUN_OUTPUT_DIR=out node main.ts
+cat out/entry.txt
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
 
 ---
 
